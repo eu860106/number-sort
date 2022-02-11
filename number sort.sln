@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bubble sort", "bubble sort\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cocktail Sort", "Cocktail Sort\Cocktail Sort.csproj", "{5A3D942D-97DA-41ED-82C2-FC3A15412FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiet Sort", "Quiet Sort\Quiet Sort.csproj", "{ED70C8A3-BB55-4E26-A6D6-F17886C909DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiet Sort", "Quiet Sort\Quiet Sort.csproj", "{ED70C8A3-BB55-4E26-A6D6-F17886C909DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selection Sort", "Selection Sort\Selection Sort.csproj", "{7853A195-14EB-47EC-9F3C-6CBEC9917C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSort", "HeapSort\HeapSort.csproj", "{B547A217-9C92-4102-BD0D-C78D027F1E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
 		{8E2450CD-532B-46BF-A2A3-69B2A3A16B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E2450CD-532B-46BF-A2A3-69B2A3A16B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E2450CD-532B-46BF-A2A3-69B2A3A16B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +37,14 @@ Global
 		{ED70C8A3-BB55-4E26-A6D6-F17886C909DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED70C8A3-BB55-4E26-A6D6-F17886C909DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED70C8A3-BB55-4E26-A6D6-F17886C909DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7853A195-14EB-47EC-9F3C-6CBEC9917C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7853A195-14EB-47EC-9F3C-6CBEC9917C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7853A195-14EB-47EC-9F3C-6CBEC9917C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7853A195-14EB-47EC-9F3C-6CBEC9917C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B547A217-9C92-4102-BD0D-C78D027F1E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B547A217-9C92-4102-BD0D-C78D027F1E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B547A217-9C92-4102-BD0D-C78D027F1E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B547A217-9C92-4102-BD0D-C78D027F1E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

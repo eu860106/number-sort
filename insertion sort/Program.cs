@@ -64,7 +64,9 @@ class Program
 
         Console.WriteLine("\n排序數列");
         for (int n = 0; n < list.Length; n++)
+        {
             Console.Write(list[n] + " ");
+        }
 
         Console.ReadLine();
     }
